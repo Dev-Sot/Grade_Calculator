@@ -26,7 +26,7 @@ Una calculadora de notas sencilla y moderna construida con **HTML, CSS y JavaScr
 
 ---
 
-## 📷 Vista previa
+## Vista previa
 
 <p align="center">
   <img src="https://i.ibb.co/Xfg8gmsL/Captura-de-pantalla-2025-05-27-220157.png" alt="Vista previa" width="70%">
