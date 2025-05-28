@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>¿Cuánto Necesito para el Final?</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <main>
+    <h1>¿Cuánto Necesito para el Final?</h1>
+    <p>
+      En esta web podrás calcular fácilmente qué nota necesitas para alcanzar tu objetivo final en una materia.
+    </p>
+
+    <section id="notas-section">
+      <h2>Ingresa tus notas actuales:</h2>
+      <div id="notas-container"></div>
+      <button id="agregar-nota"> Agregar nota</button>
+    </section>
+
+    <section>
+      <button id="toggle-config"> Configuración</button>
+    </section>
+
+    <section id="configuracion" style="display:none;">
+      <h2>Configuración</h2>
+      <label>
+        Nota mínima permitida:
+        <input type="number" id="nota-minima" value="0" step="0.1" />
+      </label>
+      <label>
+        Nota máxima posible:
+        <input type="number" id="nota-maxima" value="5" step="0.1" />
+      </label>
+      <label>
+        Nota mínima para aprobar:
+        <input type="number" id="nota-aprobatoria" value="3" step="0.1" />
+      </label>
+      <label>
+        Nota final que deseo:
+        <input type="number" id="nota-deseada" value="3.5" step="0.1" />
+      </label>
+    </section>
+
+    <section>
+      <button id="calcular"> Calcular</button>
+      <div id="resultado"><p id="resultado-texto"></p></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
