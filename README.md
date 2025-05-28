@@ -1,7 +1,7 @@
 # 📊 Grade Calculator
 
 Una calculadora de notas sencilla y moderna construida con **HTML, CSS y JavaScript**. Ideal para estudiantes o profesores que necesitan calcular promedios ponderados de forma rápida y visual.
-<p>Pagina de la Calculadora: </p>
+<p>Pagina de la Calculadora: (https://dev-sot.github.io/Grade_Calculator/) </p>
 
 ![Captura](https://i.pinimg.com/736x/5c/37/d1/5c37d1c0bfc6f5897d39eede543c59c4.jpg) <!-- Puedes subir una captura y reemplazar esto -->
 
