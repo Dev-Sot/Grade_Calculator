@@ -1,0 +1,126 @@
+:root {
+  --bg: #f4faff;
+  --card-bg: #ffffff;
+  --text: #1c1c1c;
+  --primary: #4a90e2; /* Azul cielo */
+  --link: #0077cc;
+  --shadow: rgba(0, 0, 0, 0.08);
+  --border-radius: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  padding: 20px;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  background: var(--card-bg);
+  padding: 30px;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 20px var(--shadow);
+}
+
+h1, h2 {
+  color: var(--primary);
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: var(--border-radius);
+  width: 100%;
+  max-width: 220px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 6px rgba(74, 144, 226, 0.3);
+}
+
+button {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background-color: var(--link);
+  transform: translateY(-1px);
+}
+
+#resultado {
+  margin-top: 15px;
+  font-weight: bold;
+  padding: 12px;
+  background: #eaf4ff;
+  border-radius: var(--border-radius);
+  border-left: 4px solid var(--primary);
+}
+
+#notas-container > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 12px;
+  border-radius: var(--border-radius);
+  margin-bottom: 10px;
+  box-shadow: 0 2px 6px var(--shadow);
+}
+
+.eliminar-nota {
+  background-color: #e74c3c;
+}
+
+.eliminar-nota:hover {
+  background-color: #c0392b;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 20px;
+  }
+  #notas-container > div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  input {
+    max-width: 100%;
+  }
+}
