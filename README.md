@@ -42,7 +42,7 @@ Ideal para estudiantes o profesores que necesiten calcular promedios ponderados 
 ## Preview / Vista Previa
 
 <p align="center">
-  <img src="https://i.ibb.co/Xfg8gmsL/Captura-de-pantalla-2025-05-27-220157.png" alt="Preview" width="70%">
+  <img src="https://i.ibb.co/hJwgf82h/Captura-de-pantalla-2025-08-09-203432.png" alt="Preview" width="70%">
 </p>
 
 ---
